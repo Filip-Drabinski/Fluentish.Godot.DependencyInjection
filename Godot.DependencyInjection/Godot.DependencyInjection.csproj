@@ -9,7 +9,7 @@
   <PropertyGroup>
     <Title>Godot.DependencyInjection</Title>
     <RepositoryUrl>https://github.com/Filip-Drabinski/Godot.DependencyInjection</RepositoryUrl>
-    <VersionPrefix>0.4.0</VersionPrefix>
+    <VersionPrefix>0.4.1</VersionPrefix>
     <Description>Custom dependency injection for Godot game engine</Description>
     <PackageProjectUrl>https://github.com/Filip-Drabinski/Godot.DependencyInjection</PackageProjectUrl>
     <RepositoryType>
@@ -26,8 +26,8 @@
     <ProjectReference Include="..\Godot.DependencyInjection.Services\Godot.DependencyInjection.Services.csproj" />
   </ItemGroup>
   <ItemGroup Condition="'$(Configuration)' == 'Publish'">
-    <PackageReference Include="Godot.DependencyInjection.Core" Version="0.4.0" />
-    <PackageReference Include="Godot.DependencyInjection.Services" Version="0.4.0" />
+    <PackageReference Include="Godot.DependencyInjection.Core" Version="0.4.1" />
+    <PackageReference Include="Godot.DependencyInjection.Services" Version="0.4.1" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Godot.SourceGenerators" Version="4.4.1" />
