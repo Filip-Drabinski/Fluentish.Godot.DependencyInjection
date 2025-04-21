@@ -1,6 +1,4 @@
-﻿using System.Diagnostics;
-using System.Xml.Linq;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.Extensions.Logging;
 
 namespace Godot.DependencyInjection.Services.Logger;
 

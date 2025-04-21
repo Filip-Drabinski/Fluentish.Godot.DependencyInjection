@@ -9,7 +9,7 @@
   <PropertyGroup>
     <Title>Godot.DependencyInjection.Services</Title>
     <RepositoryUrl>https://github.com/Filip-Drabinski/Godot.DependencyInjection</RepositoryUrl>
-    <VersionPrefix>0.4.0</VersionPrefix>
+    <VersionPrefix>0.4.1</VersionPrefix>
     <Description>part of custom dependency injection for Godot game engine</Description>
     <PackageProjectUrl>https://github.com/Filip-Drabinski/Godot.DependencyInjection/tree/main/Godot.DependencyInjection.Services</PackageProjectUrl>
     <RepositoryType>
@@ -22,6 +22,7 @@
     <None Include=".\..\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Fluentish.InjectableStatic.Generator" Version="0.2.1" />
     <PackageReference Include="GodotSharp" Version="4.4.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.1" />
